@@ -15,6 +15,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 @Autonomous
 public class AutoInternalIMU extends LinearOpMode {
 
+    boolean hi = true;
     DcMotor left;
     DcMotor right;
     BNO055IMU imu;
